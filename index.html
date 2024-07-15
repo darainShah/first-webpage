@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darain Shahedi - Personal Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="loading-screen">
         <div id="welcome-message"></div>
     </div>
     <div id="main-content" style="display: none;">
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/darain-shahedi-6a0650277/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
-            <a href="https://github.com/darainshah" target="_blank"><img src="github.png" alt="GitHub"></a>
-            <a href="https://www.instagram.com/darain_shahedi/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
-            <a href="mailto:darainshahedi@icloud.com" target="_blank"><img src="email.png" alt="Email"></a>
-            <a href="https://leetcode.com/u/daraincode/" target="_blank"><img src="leetcode.png" alt="LeetCode"></a>
-        </div>
+        <header>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/darain-shahedi-6a0650277/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/darainshah" target="_blank"><img src="github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/darain_shahedi/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                <a href="mailto:darainshahedi@icloud.com" target="_blank"><img src="email.png" alt="Email"></a>
+                <a href="https://leetcode.com/u/daraincode/" target="_blank"><img src="leetcode.png" alt="LeetCode"></a>
+            </div>
+            <nav id="navbar">
+                <a href="#bio">Bio</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
         <div class="hero">
-            <header>
-                <h1 id="hero-text"></h1>
-            </header>
+            <h1 id="hero-text" class="robotic-font"></h1>
         </div>
-        <nav id="navbar">
-            <a href="#bio">Bio</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
         <section id="bio">
             <div class="section-content">
                 <h2>Bio</h2>
@@ -43,18 +46,27 @@
                 <div class="project">
                     <h3>Project 1</h3>
                     <p>Description of Project 1 goes here.</p>
-                    <!-- Add image, code, or other details related to Project 1 -->
                 </div>
                 <div class="project">
                     <h3>Project 2</h3>
                     <p>Description of Project 2 goes here.</p>
-                    <!-- Add image, code, or other details related to Project 2 -->
                 </div>
                 <div class="project">
                     <h3>Project 3</h3>
                     <p>Description of Project 3 goes here.</p>
-                    <!-- Add image, code, or other details related to Project 3 -->
                 </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="content">
+                <p>Details about skills go here.</p>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="content">
+                <p>Testimonials content goes here.</p>
             </div>
         </section>
         <section id="contact">
@@ -65,7 +77,6 @@
                 <p>Phone: <span style="color: #0ff;">+91 9571032358</span></p>
                 <p>Or fill out the form below:</p>
                 <a href="https://forms.gle/AscvrgH94hQiSLc2A">google form</a>
-
             </div>
         </section>
         <footer>
